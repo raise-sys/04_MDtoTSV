@@ -1,0 +1,17 @@
+#header{
+  display: flex;
+  margin-bottom: 10px;
+}
+#header button{
+  margin-left: 20px;
+}
+
+#main{
+  display: flex;
+}
+
+.yajirushi{
+  background-color: skyblue;
+  line-height:600px;
+  padding: auto 5px;
+}
