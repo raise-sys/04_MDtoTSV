@@ -10,8 +10,14 @@ function syori(){
   var strNaiyo ="";
   for(i=2; i<lineA.length; i++){
     var line = String(lineA[i]);
-    var valA =  line.split('｜');
+    var valA =  line.split('|');
     if (i===2){
+      console.log('valA[0]:' + valA[0]);
+      console.log('valA[1]:' + valA[1]);
+      console.log('valA[2]:' + valA[2]);
+
+
+
       stime = valA[1];
       strNaiyo = valA[2];
     }else{
